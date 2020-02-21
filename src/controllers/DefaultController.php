@@ -7,7 +7,7 @@
 
 namespace dsj\gii\controllers;
 
-use common\components\controllers\WebController;
+use dsj\components\controllers\WebController;
 use Yii;
 use yii\web\NotFoundHttpException;
 use yii\web\Response;

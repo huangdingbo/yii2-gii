@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-$asset = yii\gii\GiiAsset::register($this);
+$asset = dsj\gii\GiiAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -33,7 +33,6 @@ $asset = yii\gii\GiiAsset::register($this);
             'items' => [
                 ['label' => '首页', 'url' => ['default/index']],
                 ['label' => '帮助', 'url' => 'http://www.yiiframework.com/doc-2.0/ext-gii-index.html'],
-//                ['label' => '应用', 'url' => Yii::$app->homeUrl],
             ],
         ]);
         NavBar::end();
